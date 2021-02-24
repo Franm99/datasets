@@ -194,7 +194,7 @@ class MyDataset(Dataset):
         self.pair_list = ['0000011/0000011_10001.jpg 0000011/0000011_10002.jpg',
                           '00000251/00000251_10001.jpg 00000251/00000251_10002.jpg']
         print(len(self.pair_list))
-        self.img_path = os.path.join(self.work_dir, 'myTest/')
+        self.img_path = os.path.join(self.work_dir, 'MyTest/')
         self.npy_path = os.path.join(self.work_dir, 'Coordinate/')
 
     def __getitem__(self, index):
